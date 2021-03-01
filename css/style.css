@@ -28,12 +28,27 @@ header nav {
     text-align: center;
 } 
 
-.portfolio {
+.sottotitoli {
     text-align: center;
+    
 }
 
 .img [class*="col-"] {
     height : 100px; 
-    background-color: #1abc9c;
+    background-color: #1aa4bc;
     border: 1px solid white;
+}
+
+.about {
+    background-color:  #1abc9c;
+    color: white;
+}
+
+.about a {
+    display: inline-block;
+    color: white;
+}
+
+.download {
+    text-align: center;
 }
