@@ -1,3 +1,4 @@
+/*HEADER*/
 header {
     background-color: #2d3e50;
 }
@@ -6,6 +7,7 @@ header nav {
     text-align: right;
 }
 
+/*top-nav*/
 .top-nav {
     color: white;
 }
@@ -15,6 +17,7 @@ header nav {
     text-align: right;
 }
 
+/*jumbotron*/
 .jumbotron {
     background-color: #1abc9c;
     height: 300px;
