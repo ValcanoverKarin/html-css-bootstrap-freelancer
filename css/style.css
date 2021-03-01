@@ -27,3 +27,13 @@ header nav {
 .teaser {
     text-align: center;
 } 
+
+.portfolio {
+    text-align: center;
+}
+
+.img [class*="col-"] {
+    height : 100px; 
+    background-color: #1abc9c;
+    border: 1px solid white;
+}
