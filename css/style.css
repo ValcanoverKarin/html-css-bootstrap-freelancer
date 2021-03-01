@@ -1,0 +1,16 @@
+header {
+    background-color: #2d3e50;
+}
+
+header nav {
+    text-align: right;
+}
+
+.row .menu {
+    color: white;
+}
+
+.burger i  {
+    display: inline-block;
+    text-align: right;
+}
