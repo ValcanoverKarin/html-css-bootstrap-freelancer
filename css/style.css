@@ -115,3 +115,15 @@ header .top_nav li a {
     opacity: 1;
 }
 
+.btn_send {
+    color: white;
+    background-color: #19bc9d;
+    margin-bottom: 40px;
+}
+
+.btn_send:hover {
+    color: #19bc9d;
+    background-color: white;
+    border: 1px solid #19bc9d;
+}
+
