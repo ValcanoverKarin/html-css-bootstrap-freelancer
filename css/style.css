@@ -3,6 +3,10 @@ body {
     min-width: 360px;
 }
 
+img {
+    width: 100%;
+}
+
 .section {
     padding: 20px 0;
 }
@@ -43,6 +47,17 @@ header .top_nav li a {
     text-decoration: none;
     font-size: 13px;
     padding-left: 15px;
+}
+
+.banner_img {
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/*MAIN*/
+.box-img {
+    margin-bottom: 30px;
 }
 
 
