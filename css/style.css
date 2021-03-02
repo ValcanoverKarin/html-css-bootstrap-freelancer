@@ -3,6 +3,12 @@ body {
     min-width: 360px;
 }
 
+.small-container {
+    width: 70%;
+    max-width: 900px;
+    margin: auto;
+}
+
 img {
     width: 100%;
 }
@@ -10,6 +16,7 @@ img {
 .section {
     padding: 20px 0;
 }
+
 .green-section {
     background-color: #19bc9d;
     color: white;
@@ -60,6 +67,14 @@ header .top_nav li a {
     margin-bottom: 30px;
 }
 
+.small-container .section-intro {
+    margin-top: 40px;
+}
+
+/*about*/
+.about_text {
+    margin-bottom: 20px;
+}
 
 
 
