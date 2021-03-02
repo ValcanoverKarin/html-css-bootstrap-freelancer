@@ -1,54 +1,54 @@
+/*COMMON*/
+body {
+    min-width: 360px;
+}
+
+.section {
+    padding: 20px 0;
+}
+.green-section {
+    background-color: #19bc9d;
+    color: white;
+}
+
+.star {
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
 /*HEADER*/
-header {
+/*top nav*/
+.top_nav {
     background-color: #2d3e50;
-}
-
-header nav {
-    text-align: right;
-}
-
-/*top-nav*/
-.top-nav {
     color: white;
+    padding: 20px 0;
 }
 
-.burger i  {
+header .top_nav .brand,
+header .top_nav .burger {
+    font-size: 20px;
+}
+
+header .top_nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header .top_nav li {
     display: inline-block;
-    text-align: right;
 }
 
-/*jumbotron*/
-.jumbotron {
-    background-color: #1abc9c;
-    height: 300px;
+header .top_nav li a {
     color: white;
+    text-decoration: none;
+    font-size: 13px;
+    padding-left: 15px;
 }
 
-.teaser {
-    text-align: center;
-} 
 
-.sottotitoli {
-    text-align: center;
-    
-}
 
-.img [class*="col-"] {
-    height : 100px; 
-    background-color: #1aa4bc;
-    border: 1px solid white;
-}
 
-.about {
-    background-color:  #1abc9c;
-    color: white;
-}
 
-.about a {
-    display: inline-block;
-    color: white;
-}
 
-.download {
-    text-align: center;
-}
+
+

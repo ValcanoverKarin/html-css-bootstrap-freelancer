@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -17,157 +17,74 @@
     <!--HEADER-->
     <header>
         <!--top nav-->
-        <div class="top-nav">
+        <nav class="top_nav">
             <div class="container">
                 <div class="row">
-                    <!--logo col-->
                     <div class="col-md-6 col-sm-6 col-xs-6">
-                        <div>START BOOTSRAP</div>
+                        <div class="brand">
+                            START BOOTSRAP
+                        </div>
                     </div>
-                    <!--fine logo col-->
-
-                    <!--nav col-->
+    
                     <div class="col-md-6 col-sm-6 col-xs-6">
-                        <nav>
-                            <div class="row">
-                                <div class="hidden-xs col-sm-12 col-md-12">MENU</div>
+                        <div class="text-right">
+                            <!--menu-->
+                            <ul class="hidden-xs menu">
+                                <li>
+                                    <a href="#">PORTFOLIO</a>
+                                </li>
+                                <li>
+                                    <a href="#">ABOUT</a>
+                                </li>
+                                <li>
+                                    <a href="#">CONTACT</a>
+                                </li>
+                            </ul>
+                            <!--fine menu-->
 
-                            <!--burger menu col-->
-                            <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
-                                <div class="burger menu">
-                                    <i class="fas fa-bars"></i>
-                                </div>
+                            <!--burger-->
+                            <div class="visible-xs-block burger">
+                                <i class="fas fa-bars"></i>
                             </div>
-                            <!--fine burger menu col-->
-                            </div>
-                        </nav>
+                            <!--fine burger-->
+                        </div>
                     </div>
-                    <!--fine nav col-->
+                </div>
+            </div>
+        </nav>  
+        <!--fine top nav-->  
+
+        <!--banner-->
+        <div class="section green-section">
+            <div class="container">
+                <div class="text-center">
+                    <h1>START BOOTSTRAP</h1>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
                 </div>
             </div>
         </div>
-        <!--fine top nav-->
-        
-        <!--jumbotron-->
-        <div class="jumbotron">
-            <div class="teaser block-centered">
-                <h1>START BOOTSTRAP</h1>
-                <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
-            </div>
-        </div>
-        <!--fine jumbotron-->
+        <!--fine banner-->
     </header>
     <!--FINE HEADER-->
 
     <!--MAIN-->
     <main>
-        <!--sezione portfolio-->
-        <section class="portfolio_img">
-            <!--sottotitolo-->
-            <div class="container sottotitoli">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h2>PORTFOLIO</h2>
-                        <span><i class="fas fa-star"></i></span>
-                    </div>
-                </div>
-            </div>
-            <!--fine sottotitolo-->
-
-            <!--img-->
-            <div class="container img">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-4"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-4"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-4"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-4"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-4"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-4"></div>
-                </div>
-            </div>
-            <!--fine img-->
-        </section>
-        <!--fine sezione portfolio-->
-
-        <!--sezione about-->
-        <section class="about">
-            <!--sottotitolo-->
-            <div class="container sottotitoli">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h2>ABOUT</h2>
-                        <span><i class="fas fa-star"></i></span>
-                    </div>
-                </div>
-            </div>
-            <!--fine sottotitolo-->
-
-            <!--testo-->
+        <section class="section">
             <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-6"> 
-                        <div class="text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nam, totam, nesciunt velit minus exercitationem animi 
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class="text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nam, totam, nesciunt velit minus exercitationem animi 
-                        </div>
+                <div class="section-intro text-center">
+                    <h2>PORTFOLIO</h2>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
                     </div>
                 </div>
             </div>
-            <!--fine testo-->
-
-            <!--download-->
-            <div class="container download">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <a href="#">
-                            <i class="fas fa-download"></i> Download
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!--fine download-->
         </section>
-        <!--fine sezione about-->
-
-        <!--sezione contact me-->
-        <section class="contact_me">
-            <!--sottotitolo-->
-            <div class="container sottotitoli">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h2>CONTACT ME</h2>
-                        <span><i class="fas fa-star"></i></span>
-                    </div>
-                </div>
-            </div>
-            <!--fine sottotitolo-->
-            
-            <!--info-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p>Name</p>
-                        <hr>
-                        <p>Email Address</p>
-                        <hr>
-                        <p>Phone Number</p>
-                        <hr>
-                        <p>Message</p>
-                        <hr>
-                        <a href="#">Send</a>
-                    </div>
-                </div>
-            </div>
-            <!--fine info-->
-        </section>
-        <!--fine sezione contact me-->
     </main>
     <!--FINE MAIN-->
-
+    
 
 </body>
 </html>
